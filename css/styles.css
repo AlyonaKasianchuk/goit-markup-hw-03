@@ -28,6 +28,7 @@ body {
     text-decoration: none;
     letter-spacing: 0.03em;
     color: var(--blue-brand-color);
+    margin-right: 76px;
 }
 .logo-header {
     color: var(--navyblue);
@@ -42,20 +43,41 @@ img {
 }
 
 /* Navigation */
+.div-header {
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+
+}
 .page-adress {
     font-style: normal;
 }
 .page-nav {
     display: flex;
-    
+    align-items: center;
+}
+.list-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 24px 0;
 }
 
 .link-nav {
     list-style: none;
+    padding: 24px 0;
+}
+.list-adress {
+display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: 156px;
 }
 .link-adress {
     list-style: none;
-    display: flex;
 }
 .navigation {
     font-weight: 500;
