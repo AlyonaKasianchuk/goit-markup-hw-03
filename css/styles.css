@@ -342,7 +342,10 @@ line-height: 1.17;
 
 
 /* Portfolio */
-
+.portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .filter-btn {
     color: var(--blue-brand-color, #4D5AE5);
     background-color: var(--cloud, #F4F4FD);
@@ -390,6 +393,12 @@ line-height: 1.17;
 .link-project {
     width: calc((100% - 48px) / 3);
 }
+.div-project {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
+}
 .title-project {
     text-align: left;
     font-size: 20px;
@@ -397,6 +406,7 @@ line-height: 1.17;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navyblue, #2E2F42);
+    margin-bottom: 8px;
 }
 .kind-project {
     text-align: left;
