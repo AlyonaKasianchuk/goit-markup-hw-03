@@ -37,18 +37,18 @@ img {
     display: block;
 }
 .container {
-    width: 1158px ;
-    padding: 0 15px;
-    margin: 0 auto;
+    width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
 }
-
 /* Navigation */
+.header-section {
+   border-bottom: 1px solid #e7e9fc;
+}
 .div-header {
-    border-bottom: 1px solid #e7e9fc;
     display: flex;
     align-items: center;
     margin: 0 auto;
-    padding: 0 15px;
     justify-content: space-between;
 
 }
@@ -58,6 +58,7 @@ img {
 .page-nav {
     display: flex;
     align-items: center;
+    margin: 0 auto;
 }
 .list-nav {
     display: flex;
@@ -67,11 +68,12 @@ img {
 }
 
 .link-nav {
+    display: flex;
     list-style: none;
     padding: 24px 0;
 }
 .list-adress {
-display: flex;
+    display: flex;
     align-items: center;
     gap: 40px;
     margin-right: 156px;
@@ -120,7 +122,9 @@ display: flex;
 }
 
  /* Main Page */
-
+.container-first {
+    padding: 188px 0;
+}
  .page-title {
      background-color: var(--navyblue);
      color: var(--white);
@@ -128,8 +132,10 @@ display: flex;
      text-align: center;
      line-height: 1.07;
      letter-spacing: 0.02em;
+     max-width: 496px;
+     margin: 0 auto;
  }
- .main-page {
+ .main-page-section {
      background-color: var(--navyblue);
  }
 
@@ -143,6 +149,13 @@ display: flex;
      font-weight: 500;
      line-height: 1.5;
      letter-spacing: 0.04em;
+     display: block;
+     min-width: 169px;
+     height: 56px;
+     border: none;
+     border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 48px;
  }
 
  .button-order:active {
@@ -157,7 +170,10 @@ display: flex;
  }
 
 /* Advantages */
-
+.advantage-section {
+    padding: 120px 0;
+    margin: 0 auto;
+}
 .title-advantages {
     color:var(--navyblue);
     font-size: 36px;
@@ -165,6 +181,16 @@ display: flex;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
 }
 .advantage {
     color: var(--navyblue);
@@ -186,10 +212,22 @@ display: flex;
 .list-advantages{
     list-style: none;
     text-align: left;
+    display: flex;
+    gap: 24px;
 }
+ .item-advantage {
+    width: calc((100% - 72px) / 4);
+ }
+ .advantage {
+    margin-bottom: 8px;
+ }
 
 /* Doing */
 
+.doing-section {
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
 .title-doing {
     color:var(--navyblue);
     font-size: 36px;
@@ -197,9 +235,18 @@ display: flex;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.list-doing {
+    display: flex;
+    gap: 24px;
+}
+.doing {
+    width: calc((100% - 48px) / 3);
 }
 
 /* Team */
+
 .title-team {
     color:var(--navyblue);
     font-size: 36px;
@@ -207,6 +254,7 @@ display: flex;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .member {
     color: var(--navyblue);
@@ -214,21 +262,40 @@ display: flex;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .team {
     background-color: var(--cloud);
+    padding: 120px 0;
+    margin: 0 auto;
 }
 .photo-member {
     background-color: var(--white);
+     width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .profession {
    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em; 
+    text-align: center;
+}
+.list-team {
+    display: flex;
+    gap: 24px;
+}
+.member-div {
+    padding: 32px 16px;
+
 }
 /* Footer */
 .page-footer {
     background-color: var(--navyblue);
+    padding: 100px 0;
+}
+.div-footer {
+
 }
 .text-footer {
     color: var(--cloud, #F4F4FD);
@@ -236,6 +303,7 @@ display: flex;
     letter-spacing: 0.02em;
     line-height: 1.5;
     text-align: left;
+    max-width: 264px;
 }
 .logo-footer {
     color: var(--cloud);
@@ -246,10 +314,11 @@ display: flex;
     font-weight: 800;
     text-decoration: none;
     letter-spacing: 0.03em;
+    display: inline-block;
+    margin-bottom: 16px;
 }
-.logo-footer{
-    color:var(--cloud);
-}
+
+
 
 /* Portfolio */
 
