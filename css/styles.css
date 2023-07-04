@@ -353,7 +353,7 @@ line-height: 1.17;
     padding: 12px 24px;
     border: 1px solid var(--btn-text);
     border-radius: 4px;
-    margin-top: 96px;
+ 
 }
 .filter-btn:active {
     background-color: var(--ocean, #404BBF);
