@@ -73,13 +73,11 @@ ul {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .link-nav {
     display: flex;
     list-style: none;
-    padding: 24px 0;
 }
 .list-adress {
     display: flex;
@@ -133,9 +131,7 @@ ul {
 }
 
  /* Main Page */
-.container-first {
-    padding: 188px 0;
-}
+
  .page-title {
      background-color: var(--navyblue);
      color: var(--white);
@@ -343,6 +339,7 @@ line-height: 1.17;
 .portfolio-section {
     padding-top: 96px;
     padding-bottom: 120px;
+    margin: 0 auto;
 }
 .filter-btn {
     color: var(--blue-brand-color, #4D5AE5);
