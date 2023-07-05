@@ -38,7 +38,8 @@ img {
     display: block;
 }
 .container {
-    width: 1158px;
+    width: 100%;
+    max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -54,6 +55,7 @@ ul {
 /* Navigation */
 .header-section {
    border-bottom: 1px solid #e7e9fc;
+   max-width: 1158px;
 }
 .div-header {
     display: flex;
@@ -83,10 +85,11 @@ ul {
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-right: 156px;
+    margin-left: auto;
 }
 .link-adress {
     list-style: none;
+
 }
 
 .navigation {
@@ -99,6 +102,7 @@ ul {
     color: var(--navyblue, #2E2F42);
     list-style: none;
     padding: 24px 0;
+    margin: 0 auto;
 }
 .navigation:active {
     color: var(--ocean, #404BBF);  
@@ -321,7 +325,6 @@ line-height: 1.17;
     text-decoration: none;
     letter-spacing: 0.03em;
     color: var(--blue-brand-color);
-    margin-right: 76px;
     display: inline-block;
     margin-bottom: 16px;
 }
