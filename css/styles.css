@@ -55,7 +55,6 @@ ul {
 /* Navigation */
 .header-section {
    border-bottom: 1px solid #e7e9fc;
-   max-width: 1158px;
 }
 .div-header {
     display: flex;
@@ -69,7 +68,6 @@ ul {
 .page-nav {
     display: flex;
     align-items: center;
-    margin: 0 auto;
 }
 .list-nav {
     display: flex;
